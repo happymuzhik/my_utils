@@ -1,4 +1,4 @@
-const storage_name = 'tartilla_storage';
+const storage_name = 'some_local_storage';
 const local_storage = {
 	set: (prop_name, value) => {		
 		let ls = localStorage.getItem(storage_name) ? JSON.parse(localStorage.getItem(storage_name)) : {};
